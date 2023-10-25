@@ -7,7 +7,8 @@ const MyTeamTaskSchema = new mongoose.Schema({
     description : String,
     priority : String,
     teamMember : String,
-    teamMemberId : String
+    teamMemberId : String,
+    status : String
 });
 
 const NewTeamTask = mongoose.model('Team-Task' , MyTeamTaskSchema)
